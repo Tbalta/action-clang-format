@@ -49,6 +49,5 @@ pool.close()
 pool.join()
 if len(failedfiles) > 0:
     print("Errors in " + str(len(failedfiles)) + " files")
-    sys.exit(1)
 print("No errors found")
 sys.exit(0)
